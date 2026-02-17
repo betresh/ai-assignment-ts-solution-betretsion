@@ -32,6 +32,19 @@ Update this README to include:
 - how to run the tests locally,
 - how to build and run tests with Docker.
 
+## How to run the tests locally
+
+- Make sure a recent Node.js runtime (Node 18 or compatible) is installed on your machine.
+- Install the project dependencies into the working directory.
+- Run the project's test script to execute the full test suite.
+
+## How to build and run the tests with Docker
+
+- Build the project Docker image; the image performs a clean install of dependencies inside the container.
+- Run the built image — it runs the test suite automatically and exits with the test result.
+
+If you encounter permission issues talking to Docker, run the build and run commands with elevated privileges or add your user to the Docker group.
+
 ### 4) Find + fix a bug (required)
 
 There is a bug somewhere in this repository.
